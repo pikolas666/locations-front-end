@@ -1,0 +1,35 @@
+.header {
+	background-color: #333;
+	padding: 10px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+.logo {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.navList {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+
+.navItem {
+	margin: 0;
+}
+
+.navLink {
+	all: unset;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
