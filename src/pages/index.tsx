@@ -8,7 +8,7 @@ import Cards from "@/components/cards/Cards";
 import PageTemplate from "@/components/pageTemplate/PageTemplate";
 
 export default function Home() {
-	const [locations, setLocations] = useState([]);
+	const [locations, setLocations] = useState<Array<any> | null>(null);
 	const router = useRouter();
 
 	useEffect(() => {
